@@ -4,7 +4,7 @@ def print_aanbieding():
     prijzen = {
     "aardbei"    :   3,
     "vanille"    :   4,
-        "chocolade" :   5
+    "chocolade"  :   5
         }
 
     aanbieding = prijzen["aardbei"] * 0.8   # De variable Vanille omgewisseld voor aardbei   
