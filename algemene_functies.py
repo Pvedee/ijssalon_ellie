@@ -8,3 +8,9 @@ def mijn_functie_2(a,b):
     uitvoer(a*b)
     uitvoer(a/b)
     return uitvoer
+
+a = 2
+b =1
+
+print (mijn_functie_2(a,b))
+
