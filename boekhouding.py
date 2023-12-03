@@ -11,11 +11,8 @@ inkomsten = {
 
 totaal_inkomsten = som(inkomsten)
 
-def presenteer(inkomsten, totaal_inkomsten):
-    for k, v in inkomsten.items():
-        print (k, ": €", v)
-        print (20 * "=")
-        print (f"Totaal : €", som({v}))
+presenteer(inkomsten, totaal_inkomsten)
+
 
 with open('boekhouding.csv', 'w', newline='') as csvfile:
     for key, value in inkomsten.items():
